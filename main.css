@@ -26,7 +26,13 @@ body{
             width: 40%;
             padding: 40px;
             background-color: red;
-
+            background-image: url(./Mountain.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: #FFFFFF;
+            height: 440px;
+            margin-top: 30px;
         }
         .title {
 
@@ -35,16 +41,70 @@ body{
 
         }
             .link {
+                color: #FFFFFF;
 
             }
             .amp {
                 
             }
-            .right-column {
+        .right-column {
             display: inline-block;
             float: left;
             width: 60%;
             padding: 60px;
-            background-color: seagreen;
+            background-color: #FFFFFF;
 
         }
+            .form {
+                display: inline-block;
+                width: 100%;
+            }
+                .form-row {
+                    display: inline-block;
+                    width: 100%;
+                    margin-bottom: 30px;
+                }
+                .form-row:last-of-type {
+                    margin-bottom: 0;
+                }
+                label {
+                    display: inline-block;
+                    width: 100%;
+                    margin-bottom: px;
+                    color: #777777;
+                    text-transform: uppercase;
+                    font-size: 16px;
+                }
+                input {
+                    display: inline-block;
+                    width: 100%;
+                    font-size: 20px;
+                    border-left: none;
+                    border-top: none;
+                    border-right: none;
+                    border-bottom-color: grey;
+                    /* border: none;
+                    border-bottom: 1px solid; */
+                }
+                .btn {
+                    display: inline-block;
+                    background-color: #144DD9;
+                    color: #FFFFFF;
+                    padding: 10px;
+                    padding-left: 50px;
+                    padding-right: 50px;
+                    line-height: 20px;
+                    border-radius: 20px;
+                }
+                .or {
+                    display: inline-block;
+                    line-height: 20px;
+                    padding-top: 10px;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                }
+                .blue-link {
+                    display: inline-block;
+                    line-height: 20px;
+                    padding-top: 10px;
+                }
