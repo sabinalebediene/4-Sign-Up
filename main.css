@@ -129,6 +129,7 @@ body{
                     padding-right: 50px;
                     line-height: 20px;
                     border-radius: 20px;
+                    cursor: pointer;
                 }
                 .or {
                     display: inline-block;
